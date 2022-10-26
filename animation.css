@@ -16,7 +16,7 @@
 
 }
 
-.pantofimg {
+.pantofimg,.zana {
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite  alternate;
 }
@@ -28,3 +28,4 @@
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
 }
+

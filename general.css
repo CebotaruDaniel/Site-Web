@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding: 0;
+		box-sizing: border-box;
 }
 
 
@@ -206,6 +207,7 @@ td{
     background-color: #f6f2f2;
     margin-top: 3rem;
     text-align: center;
+		text-transform: uppercase;
 }
 
 .section-carte {
@@ -219,7 +221,7 @@ td{
 .texttabel{
     font-family: 'Dancing Script', cursive;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 2.3rem;
     letter-spacing: 0.3rem;
     color: #f49e9e;
 }
@@ -328,16 +330,15 @@ td{
 
 .clicked:hover{
     text-decoration: none;
-    background-color: #f6f2f2;
-    color: #f49e9e;
+		color: #f6f2f2;
 }
 
 /* FAQ */
 .faq{
     display: flex;
+		color: #f6f2f2;
     align-items: center;
     justify-content: center;
-    background-color: #f6f2f2;
     border-radius: 1.5rem;
 }
 
@@ -362,3 +363,26 @@ td{
 }
 
 
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 20px #f49e9e,
+    0 0 30px #f49e9e,
+    0 0 40px #f49e9e,
+    0 0 50px #f49e9e,
+    0 0 60px #f49e9e;
+}
+
+.nounderline{
+	text-decoration: none;
+	font-family: serif;
+	text-transform: uppercase;
+}
+
+span{
+	font-weight: bold;
+	color: #f49e9e;
+}
